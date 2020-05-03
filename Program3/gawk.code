@@ -1,0 +1,25 @@
+
+#Filename: gawk.code
+#Date: 2.24.2020
+#Author: Medha Aiyah
+#Email: mva170001@utdallas.edu
+#Course: CS 3377.501 Spring 2020
+#Version 1.0
+#Copyright 2020, All Rights Reserved
+#
+#Description: This file will look at the contents from numbers.txt and add up the values in column 1
+#             and the values in column 4 to create two different sums
+
+#!/bin/gawk
+
+#This is used to add up all the values in column 1
+ 
+{sum1 += $1}
+
+#This is used to add up all the values in column 4
+
+{sum4 += $4}
+
+#This is used to print the values for column 1 and column 4
+
+END {print sum1, sum4}
