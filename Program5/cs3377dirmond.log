@@ -1,0 +1,18 @@
+Currently: Daemon started, log file created
+Watching directory
+Starting program in verbose mode.
+creating ./versions subfolder
+In processControl()
+Doing the fork process
+Parent exited.
+We are in the child fork portion.
+Moving to process control (creating pid file and log file and etc).
+pid file created and closed
+processControl.cc has been modified
+processControl.cc has been modified
+test.txt has been created
+test.txt.save has been created
+Daemon interrupted. Shutting down.
+Removing pid file
+re-reading configuration file.
+Configuration updated
